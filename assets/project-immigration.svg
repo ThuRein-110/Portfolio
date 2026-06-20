@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-labelledby="title desc">
+  <title id="title">Immigration Management System preview</title>
+  <desc id="desc">Terminal style preview for visa application management and dashboard charts.</desc>
+  <rect width="900" height="470" fill="#090b0a"/>
+  <path d="M0 78h900M0 156h900M0 234h900M0 312h900M0 390h900M150 0v470M300 0v470M450 0v470M600 0v470M750 0v470" stroke="#1e261f" stroke-width="2"/>
+  <rect x="54" y="50" width="792" height="370" fill="#111512" stroke="#b7f436" stroke-width="3"/>
+  <text x="84" y="100" fill="#b7f436" font-family="Menlo, monospace" font-size="24">IMMIGRATION_MANAGEMENT_SYSTEM</text>
+  <text x="84" y="150" fill="#e9eee8" font-family="Menlo, monospace" font-size="20">$ dashboard visa_status</text>
+  <rect x="84" y="205" width="110" height="120" fill="#273225"/>
+  <rect x="224" y="165" width="110" height="160" fill="#b7f436"/>
+  <rect x="364" y="235" width="110" height="90" fill="#273225"/>
+  <rect x="536" y="185" width="220" height="28" fill="#273225"/>
+  <rect x="536" y="236" width="180" height="28" fill="#273225"/>
+  <rect x="536" y="287" width="140" height="28" fill="#273225"/>
+  <text x="84" y="388" fill="#98a098" font-family="Menlo, monospace" font-size="18">applications / admin review / charts</text>
+</svg>
