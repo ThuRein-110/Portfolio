@@ -84,7 +84,7 @@ main, footer { width: min(calc(100% - 48px), var(--max)); margin-inline: auto; }
 .portrait-frame::before, .portrait-frame::after { position: absolute; color: var(--accent); font-size: 1.3rem; line-height: 1; }
 .portrait-frame::before { content: "+"; top: -10px; left: -7px; }
 .portrait-frame::after { content: "+"; bottom: -10px; right: -7px; }
-.portrait-frame img { display: block; width: 100%; aspect-ratio: .82; object-fit: cover; object-position: 48% 20%; filter: grayscale(1) contrast(1.1); background: radial-gradient(circle, #283125, #0b0d0c 65%); }
+.portrait-frame img { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: contain; filter: grayscale(1) contrast(1.1); background: radial-gradient(circle, #283125, #0b0d0c 65%); }
 .portrait-status { position: absolute; z-index: 2; top: 14px; left: 14px; padding: 7px 9px; color: var(--accent); background: rgba(9,11,10,.8); font-size: .58rem; }
 .status-dot { display: inline-block; width: 7px; height: 7px; margin-right: 6px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent); }
 .portrait-frame figcaption { display: flex; justify-content: space-between; gap: 10px; padding: 10px; color: var(--muted); font-size: .56rem; border-top: 1px solid var(--line); }
