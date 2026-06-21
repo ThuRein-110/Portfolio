@@ -100,7 +100,18 @@ main, footer { width: min(calc(100% - 48px), var(--max)); margin-inline: auto; }
 .looking-card p { margin: 0 0 10px; color: var(--accent); font-size: .66rem; letter-spacing: .12em; }
 .looking-card strong { display: block; max-width: 780px; font-family: Arial, Helvetica, sans-serif; font-size: clamp(1.25rem, 2vw, 1.9rem); line-height: 1.12; letter-spacing: -.035em; }
 .looking-card span { display: block; max-width: 760px; margin-top: 12px; color: var(--muted); font-size: .78rem; }
-.cursor-line { margin-bottom: 0; }
+.mini-terminal { margin-top: 30px; border: 1px solid var(--line); background: #070907; }
+.terminal-output { min-height: 150px; max-height: 310px; overflow-y: auto; padding: 18px; border-bottom: 1px solid var(--line); color: #c7cec6; font-size: .78rem; }
+.terminal-output p { margin: 0 0 8px; }
+.terminal-output p:last-child { margin-bottom: 0; }
+.terminal-output code { color: var(--accent); font-family: inherit; }
+.terminal-output .terminal-muted { color: var(--muted); }
+.terminal-output .terminal-error { color: #ff7b72; }
+.terminal-output .terminal-success { color: var(--accent); }
+.terminal-form { display: flex; align-items: center; gap: 8px; padding: 13px 18px; }
+.terminal-prompt { flex: 0 0 auto; color: var(--accent); white-space: nowrap; }
+.terminal-form input { width: 100%; border: 0; outline: 0; color: var(--ink); background: transparent; font: inherit; caret-color: var(--accent); }
+.terminal-form input::placeholder { color: #566156; }
 .blink { animation: blink 1.1s step-end infinite; }
 @keyframes blink { 50% { opacity: 0; } }
 .facts { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line); }

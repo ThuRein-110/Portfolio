@@ -90,7 +90,16 @@
             <strong>Seeking cybersecurity internship, SOC analyst, junior security analyst, digital forensics, and practical software security roles.</strong>
             <span>Preferred work: security operations, incident triage, forensic investigation, vulnerability research support, and full-stack security tooling.</span>
           </div>
-          <p class="cursor-line"><span class="prompt">thu@portfolio:~$</span> <span class="blink">_</span></p>
+          <div class="mini-terminal" aria-label="Interactive portfolio terminal">
+            <div class="terminal-output" id="terminal-output" aria-live="polite">
+              <p><span class="prompt">thu@portfolio:~$</span> help</p>
+              <p>Try: <code>ls</code>, <code>cd projects</code>, <code>cd certifications</code>, <code>pwd</code>, <code>cat about.txt</code>, <code>open resume</code>, <code>clear</code>.</p>
+            </div>
+            <form class="terminal-form" id="terminal-form" autocomplete="off">
+              <label class="terminal-prompt" id="terminal-prompt" for="terminal-input">thu@portfolio:~$</label>
+              <input id="terminal-input" name="command" type="text" spellcheck="false" aria-label="Type a portfolio terminal command" placeholder="type ls and press enter">
+            </form>
+          </div>
         </div>
         <aside class="facts" aria-label="Quick facts">
           <div><span>29</span><p>public repositories</p></div>
